@@ -27,7 +27,7 @@ This commands includes
 <BR>
 
 ## Output
-## 1.IPCONFIG:
+```bash
 Microsoft Windows [Version 10.0.26200.8246]
 (c) Microsoft Corporation. All rights reserved.
 
@@ -60,7 +60,7 @@ Ethernet adapter Ethernet:
 
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . :
-## 2.HOSTNAME:
+
 C:\Users\acer>hostname
 Abdul-PC
 
@@ -526,6 +526,8 @@ C:\Users\acer>whoami
 abdul-pc\acer
 
 C:\Users\acer>
+
+```
 
 ## Result
 Thus Execution of Network commands Performed 
