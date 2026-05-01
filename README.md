@@ -529,6 +529,7 @@ C:\Users\acer>whoiami
 'whoiami' is not recognized as an internal or external command,
 operable program or batch file.
 ```
+```
 C:\Users\acer>whoami
 abdul-pc\acer
 ```
