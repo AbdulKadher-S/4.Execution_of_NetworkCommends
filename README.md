@@ -81,7 +81,8 @@ Options:
     -S srcaddr         Source address to use (IPv6-only).
     -4                 Force using IPv4.
     -6                 Force using IPv6.
-
+```
+```
 C:\Users\acer>ping www.google.com
 
 Pinging www.google.com [2001:4860:482b:7700::] with 32 bytes of data:
