@@ -27,6 +27,7 @@ This commands includes
 <BR>
 
 ## Output
+## 1.IPCONFIG
 ```bash
 Microsoft Windows [Version 10.0.26200.8246]
 (c) Microsoft Corporation. All rights reserved.
@@ -60,10 +61,12 @@ Ethernet adapter Ethernet:
 
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . :
-
+```
+```
 C:\Users\acer>hostname
 Abdul-PC
-
+```
+```
 C:\Users\acer>tracert
 
 Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
@@ -91,7 +94,8 @@ Ping statistics for 2001:4860:482b:7700:::
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
     Minimum = 13ms, Maximum = 76ms, Average = 35ms
-
+```
+```
 C:\Users\acer>netstat
 
 Active Connections
@@ -150,7 +154,8 @@ Active Connections
   TCP    [2403:8600:c090:51:358e:ee11:5fe2:bd54]:62723  whatsapp-cdn6-shv-03-maa3:5222  ESTABLISHED
   TCP    [2403:8600:c090:51:358e:ee11:5fe2:bd54]:62757  lb-140-82-112-26-iad:https  ESTABLISHED
   TCP    [2403:8600:c090:51:358e:ee11:5fe2:bd54]:63242  [64:ff9b::2d8e:e92]:https  ESTABLISHED
-
+```
+```
 C:\Users\acer>systeminfo
 
 Host Name:                     ABDUL-PC
@@ -222,14 +227,16 @@ Virtualization-based security: Status: Running
                                App Control for Business user mode policy: Off
                                Security Features Enabled:
 Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.
-
+```
+```
 C:\Users\acer>getmac
 
 Physical Address    Transport Name
 =================== ==========================================================
 FC-6D-77-6D-9C-46   \Device\Tcpip_{05DFA269-CEFB-4295-ADCE-7123750CCF35}
 74-D4-DD-CF-7A-F3   Media disconnected
-
+```
+```
 C:\Users\acer>tasklist
 
 Image Name                     PID Session Name        Session#    Mem Usage
@@ -516,17 +523,14 @@ tasklist.exe                 15648 Console                    1     11,752 K
 C:\Users\acer>nslookup
 Default Server:  dns64.dns.google
 Address:  2001:4860:4860::6464
-
->
+```
+```
 C:\Users\acer>whoiami
 'whoiami' is not recognized as an internal or external command,
 operable program or batch file.
-
+```
 C:\Users\acer>whoami
 abdul-pc\acer
-
-C:\Users\acer>
-
 ```
 
 ## Result
