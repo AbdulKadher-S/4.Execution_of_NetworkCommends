@@ -63,7 +63,7 @@ Ethernet adapter Ethernet:
 ## 2.HOSTNAME:
 C:\Users\acer>hostname
 Abdul-PC
-## 3.TRACERT:
+
 C:\Users\acer>tracert
 
 Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
@@ -78,7 +78,7 @@ Options:
     -S srcaddr         Source address to use (IPv6-only).
     -4                 Force using IPv4.
     -6                 Force using IPv6.
-## 4.PING:
+
 C:\Users\acer>ping www.google.com
 
 Pinging www.google.com [2001:4860:482b:7700::] with 32 bytes of data:
@@ -91,7 +91,7 @@ Ping statistics for 2001:4860:482b:7700:::
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
     Minimum = 13ms, Maximum = 76ms, Average = 35ms
-## 5.NETSTAT:
+
 C:\Users\acer>netstat
 
 Active Connections
@@ -150,7 +150,7 @@ Active Connections
   TCP    [2403:8600:c090:51:358e:ee11:5fe2:bd54]:62723  whatsapp-cdn6-shv-03-maa3:5222  ESTABLISHED
   TCP    [2403:8600:c090:51:358e:ee11:5fe2:bd54]:62757  lb-140-82-112-26-iad:https  ESTABLISHED
   TCP    [2403:8600:c090:51:358e:ee11:5fe2:bd54]:63242  [64:ff9b::2d8e:e92]:https  ESTABLISHED
-## 6.SYSTEM INFO:
+
 C:\Users\acer>systeminfo
 
 Host Name:                     ABDUL-PC
@@ -222,14 +222,14 @@ Virtualization-based security: Status: Running
                                App Control for Business user mode policy: Off
                                Security Features Enabled:
 Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.
-## 7.GETMAC:
+
 C:\Users\acer>getmac
 
 Physical Address    Transport Name
 =================== ==========================================================
 FC-6D-77-6D-9C-46   \Device\Tcpip_{05DFA269-CEFB-4295-ADCE-7123750CCF35}
 74-D4-DD-CF-7A-F3   Media disconnected
-## 8.TASKLIST:
+
 C:\Users\acer>tasklist
 
 Image Name                     PID Session Name        Session#    Mem Usage
@@ -512,12 +512,20 @@ TrustedInstaller.exe         19076 Services                   0      9,756 K
 TiWorker.exe                 10916 Services                   0     17,916 K
 ShellHost.exe                 6960 Console                    1     72,156 K
 tasklist.exe                 15648 Console                    1     11,752 K
-## 9.NSLOOKUP:
+
 C:\Users\acer>nslookup
 Default Server:  dns64.dns.google
 Address:  2001:4860:4860::6464
-## 10.WHO AM I:
+
+>
+C:\Users\acer>whoiami
+'whoiami' is not recognized as an internal or external command,
+operable program or batch file.
+
 C:\Users\acer>whoami
 abdul-pc\acer
+
+C:\Users\acer>
+
 ## Result
 Thus Execution of Network commands Performed 
