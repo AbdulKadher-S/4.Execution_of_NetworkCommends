@@ -27,6 +27,38 @@ This commands includes
 <BR>
 
 ## Output
+## 1.IPCONFIG:
+Microsoft Windows [Version 10.0.26200.8246]
+(c) Microsoft Corporation. All rights reserved.
 
+C:\Users\acer>ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2403:8600:c090:51:cd77:36ee:9d57:3ca3
+   Temporary IPv6 Address. . . . . . : 2403:8600:c090:51:358e:ee11:5fe2:bd54
+   Link-local IPv6 Address . . . . . : fe80::ebb3:ecd3:4342:36a%3
+   Autoconfiguration IPv4 Address. . : 169.254.197.8
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : fe80::eedd:24ff:fe3d:ced5%3
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
 ## Result
 Thus Execution of Network commands Performed 
